@@ -76,3 +76,7 @@ address {
 .affix {
    top:100px;
 }
+
+.btn .btn-warning .btn-block {
+    width: 120px;
+}
