@@ -11,27 +11,22 @@ body {
     background: #303F9F;
 }
 
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav> .active> a, .navbar-inverse .navbar-nav> .active> a:hover, .navbar-inverse .navbar-nav> .active> a:focus {
     color: #fff;
     background: #1A237E;
 }
 
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav> .open> a, .navbar-inverse .navbar-nav> .open> a:hover, .navbar-inverse .navbar-nav> .open> a:focus {
     color: #fff;
     background: #1A237E;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
-.navbar-inverse .navbar-nav .open .dropdown-menu {
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a, .navbar-inverse .navbar-nav .open .dropdown-menu {
     background-color: #303F9F;
     color: #eeeeee;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color: #000000;
 }
 
@@ -67,14 +62,14 @@ address {
 }
 
 .tab-content {
-   border-left: 1px solid #ddd;
-   border-right: 1px solid #ddd;
-   border-bottom: 1px solid #ddd;
-   padding: 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
 
 .affix {
-   top:100px;
+    top: 100px;
 }
 
 .btn .btn-warning .btn-block {
@@ -82,14 +77,22 @@ address {
 }
 
 .carousel {
-   background:#1A237E;
+    background: #1A237E;
 }
+
 .carousel .item {
- height: 300px;
+    height: 300px;
 }
+
 .item img {
-   position: absolute;
-   top: 0;
-   left: 0;
-   min-height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButtons {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
 }
